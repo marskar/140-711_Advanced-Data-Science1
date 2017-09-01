@@ -1,0 +1,34 @@
+---
+title: "my_rmd"
+author: "Martin Skarzynski"
+date: "8/31/2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Zillow Prize Final Project
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) document describing my plan for the Advanced Data Science I (140.711.01) final project.
+
+For my project, I will compete for the [Zillow prize](https://www.zillow.com/promo/Zillow-prize/) and write up my results.
+
+The data provided for the challenge are described at [Zillow prize site](https://www.zillow.com/promo/Zillow-prize/data).
+
+The challenge entails training a machine learning algorithm that can beat Zillow's proprietary Zestimate at predicting home values.
+
+## First steps
+-----------
+1. Create Kaggle and GitHub accounts
+2. Create a GitHub repo for the Advanced Data Science I (140.711.01) final project.
+3. Download the data files and put in the repo
+4. Add the data files to .gitignore except for zillow_data_dictionary.xlsx
+5. Split the training data into training and test sets.
+6. Try different algorithms using the caret package and measure performance
+7. Select the top algorithm(s)
+8. Assess opportunities to improve performance of the top algorithm(s)
+
+
+
